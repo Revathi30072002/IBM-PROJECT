@@ -1,0 +1,448 @@
+* body{
+    background-color: #000000;
+    border-top: none;
+    border-right: 5px;
+    border-left: 5px;
+    padding: 30px;
+}
+#logo{
+    height: 55px;
+    width: 250px;
+}
+/*---------open page---------*/
+.open_link_logo{
+    height: 25px;
+    width: 25px;
+}
+#open_navbrand{
+    height: 80px;
+    width: 250px;
+}
+.open-nav-link{
+    color: white;
+    font-family: 'comic', monospace;
+    text-decoration: none;
+}
+.open-nav-link:hover{
+    color: #00BCAD;
+}
+.open_welcome{
+    padding-top: 30px;
+    margin-left: 40px;
+    font-family: 'Berlin Sans FB';
+    font-size: 50px;
+    color: #00BCAD;
+}
+.open-login-frame{
+    margin-left: 100px;
+}
+.loginform{
+    transition: 0.25s;
+    border-radius: 20px;
+}
+.open-loginform input[type="text"],
+.open-loginform input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    font-family: Berlin Sans FB;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(255, 255, 255);
+}
+.open-loginform input[type="text"]:hover,
+.open-loginform input[type="password"]:hover {
+    width: 300px;
+    border-color: #2ecc71;
+}
+
+.open-loginform input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    
+}
+
+.open-loginform input[type="submit"]:hover{
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #00BCAD);
+}
+.open-foot p, a{
+    color: rgb(255, 255, 255);
+}
+.open-foot hr{
+    color: rgb(255, 255, 255);
+    width: 250px;
+}
+.open-foot a:hover{
+    color: rgb(255, 255, 255);
+    width: 300px;
+}
+.flash-msg{
+    background-color: #191919;
+    border: none;
+}
+#open-image1{
+    float: right;    
+    margin: 0 0 0 15px;
+    height: 500px;
+}
+.exploring{
+    padding: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgba(173, 173, 173, 0.24);
+    height: auto;
+    border-radius: 15px;
+}
+.exploring h1{
+    color: #00BCAD;
+    font-family: 'Berlin Sans FB';
+    font-weight: lighter;
+    font-size: 30px;
+}
+.exploring p{
+    color: #ffffff;
+    font-family: 'Berlin Sans FB';
+    font-weight: lighter;
+    font-size: 20px;
+}
+.explore_cont{
+    font-family: 'Berlin Sans FB';
+    color: white;
+    float: right;    
+    margin: 0 0 0 15px;
+}
+.exploring img{
+    height: 150px;
+    width: 180px;
+    border-radius: 100%;
+    float: right;    
+    margin: 0 0 0 15px;
+}
+.exp_btn{
+    border-radius: 15px;
+}
+.bg-image{
+    background-image: url('/static/images/feedback.jpg');
+    background-color: rgba(250, 235, 215, 0.336);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 768px;
+    border-radius: 30px;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.288);
+    border-radius: 20px;
+}
+.copyright{
+    color: white;
+}
+.copyright a{
+    color: #00BCAD;
+    text-decoration: wavy;
+}
+.copyright a:hover{
+    color: burlywood;
+}
+/*-----------base page----------*/
+.profile_btn{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'Berlin Sans FB';
+    font-size: 20px;
+}
+.profile_btn a{
+    text-decoration: none;
+    color: #00BCAD;
+}
+.profile_btn a:hover{
+    background-color: none;
+    color: rgb(3, 83, 83);
+}
+/*-------------- home page -----------*/
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 15px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }  
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  
+  .right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+/*----------signup-form---------*/
+.signup-frame{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    border: none;
+}
+.signupform{
+    width: 400px;
+    padding: 30px;
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    top: 50px;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.signupform input[type="text"],
+.signupform input[type = "email"],
+.signupform input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    font-family: Berlin Sans FB;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(255, 255, 255);
+}
+
+.signupform h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Freestyle Script;
+}
+.signupform input[type="text"]:hover,
+.signupform input[type = "email"]:hover,
+.signupform input[type="password"]:hover {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.signupform input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.signupform input[type="submit"]:hover {
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #1565c0);
+}
+/*----------sigin-form---------*/
+.login-frame{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border: none;
+}
+.loginform{
+    max-width: 500px;
+    margin: auto;
+    top: 50px;
+    width: 400px;
+    padding: 30px;
+    position: relative;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+    border-radius: 20px;
+}
+.loginform input[type="text"],
+.loginform input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    font-family: Berlin Sans FB;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(255, 255, 255);
+}
+
+.loginform h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Freestyle Script;
+}
+.loginform input[type="text"]:hover,
+.loginform input[type="password"]:hover {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.loginform input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.loginform input[type="submit"]:hover{
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #1565c0);
+}
+.foot p, a{
+    color: rgb(156, 156, 156);
+}
+.foot hr{
+    color: rgb(92, 91, 91);
+}
+.flash-msg{
+    background-color: #191919;
+    border: none;
+}
+/*----------signout-form---------*/
+.signout-frame{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    border: none
+}
+.signoutform{
+    width: 400px;
+    padding: 30px;
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    top: 50px;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.signoutform input[type="text"],
+.signoutform input[type = "email"],
+.signoutform input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    font-family: Berlin Sans FB;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(255, 255, 255);
+}
+
+.signoutform h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Freestyle Script;
+}
+.signoutform input[type="text"]:hover,
+.signoutform input[type = "email"]:hover,
+.signoutform input[type="password"]:hover {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.signoutform input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.signoutform input[type="submit"]:hover {
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #1565c0);
+}
